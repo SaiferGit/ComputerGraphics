@@ -57,6 +57,8 @@ int main()
     cin >> centerX >> centerY;
 
     bresenhamCircle(centerX, centerY, r);
+    getch ();
+    closegraph ();
 
     return 0;
 }
