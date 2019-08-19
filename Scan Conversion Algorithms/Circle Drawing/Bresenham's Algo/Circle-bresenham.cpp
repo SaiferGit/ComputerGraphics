@@ -39,7 +39,8 @@ void bresenhamCircle(int centerX, int centerY, int r)
         drawingCircle(centerX, centerY, x, y);
         delay(100);
     }
-    delay(10000);
+    //delay(10000);
+
 }
 
 
@@ -48,7 +49,7 @@ int main()
 {
     int centerX, centerY, r;
     int gd = DETECT, gm;
-    initgraph(&gd, &gm, "C:\\TC\\BGI");
+    initgraph(&gd, &gm, "");
 
     cout << "Enter the radius: ";
     cin >> r;
