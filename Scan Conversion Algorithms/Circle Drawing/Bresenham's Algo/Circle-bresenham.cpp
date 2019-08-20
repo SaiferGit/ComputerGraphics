@@ -28,7 +28,7 @@ void bresenhamCircle(int centerX, int centerY, int r)
     {
         x++; // x = x+1 korlam next decision parameter ta khuje ber korar jonne.
         // ei muhurte d = +ve/ -ve dekhe next pixel select korbe. so
-        if (d > 0) // d +ve hole nicher pixel select korbe
+        if (d >= 0) // d +ve hole nicher pixel select korbe
         {
             y--;
             d = d + 4 * (x - y) + 10;
