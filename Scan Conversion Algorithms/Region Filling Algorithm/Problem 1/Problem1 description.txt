@@ -1,3 +1,0 @@
-Suppose you are given coordinates of two opposite corner point of a rectangle. 
-Scan convert the rectangle using any line drawing algorithm that you prefer and fill the rectangle using colour red using boundary/floodfill(any one) algorithm. Seed? Use the intersection point of two diagonals as a seed. 
-The rectangle will be parallal to the horizontal axis. 
