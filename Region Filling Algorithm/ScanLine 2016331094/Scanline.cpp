@@ -70,15 +70,6 @@ void Poly::read()
     }
     else
         cout<<"\n Enter valid no. of vertices.";
-
-    /*
-    for(int i = 0; i < n; i++)
-    {
-
-        cout << "x = " << p[i].pointX << "," << "y = " << p[i].pointY << endl;
-    }
-    cout << "min y = " << min_y_poly << ",max y = " << max_y_poly << endl;
-    */
 }
 
 void Poly::drawPolygon()

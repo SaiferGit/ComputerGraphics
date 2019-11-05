@@ -53,37 +53,6 @@ void Poly::drawLines()
 
             double x1 = lines[i].x1, x2 = lines[i].x2, y1 = lines[i].y1, y2 = lines[i].y2;
             double m = (y2-y1) * (x2-x1);
-            int x11, y11, x22, y22;
-                if(region1 != "0000")
-                {
-                    for(int i =0 ; i<4; i++)
-                    {
-                        if(region1[i] == '1')
-                        {
-                            if(i == 0)
-                            {
-                                y11 = p[0].y2;
-                                x11 = x1 + m*(y11-y1);
-                                if( region1 == "0000")
-                                {
-                                    ddaSolve(x11, y11, x1, y1, 4);
-                                    ddaSolve(x2, y2, x1, y1, 2);
-                                }
-                                else
-                                {
-                                    i+=2;
-                                }
-                            }
-                            else if(i == 1)
-                            {
-
-                            }
-
-                        }
-                    }
-                }
-            }
-
 
         }
     }
